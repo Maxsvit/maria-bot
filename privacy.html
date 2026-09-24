@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Політика конфіденційності — Марія</title>
+  <meta name="description" content="Як бот-асистентка Марія зберігає й використовує дані, зокрема дані Google Calendar.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header>
+    <h1>Політика конфіденційності</h1>
+    <p class="muted">Telegram-бот «Марія» · оновлено 24 вересня 2026</p>
+    <nav>
+      <a href="index.html">← Про бота</a>
+      <a href="#en">English</a>
+    </nav>
+  </header>
+
+  <h2>Які дані бот обробляє</h2>
+  <ul>
+    <li><strong>Telegram:</strong> ваш числовий ID і повідомлення, які ви надсилаєте боту (текст і голосові).</li>
+    <li><strong>Те, що ви просите зберегти:</strong> нагадування, справи, ідеї та налаштування (час брифів, часовий пояс).</li>
+    <li><strong>Google Calendar</strong> (лише якщо ви підключили його самі): події вашого основного календаря та токен доступу, який видає Google.</li>
+  </ul>
+
+  <h2>Як використовуються дані Google Calendar</h2>
+  <p>Бот запитує лише дозвіл <code>calendar.events</code> і використовує його тільки для функцій, які ви бачите:</p>
+  <ul>
+    <li>показати зустрічі дня в ранковому плані та в команді /today;</li>
+    <li>надіслати сповіщення перед початком події;</li>
+    <li>створити подію (за потреби — з посиланням на Google Meet), коли ви прямо про це просите, і видалити її кнопкою «Видалити».</li>
+  </ul>
+  <p>Бот не змінює й не видаляє інші ваші події, не продає й не передає дані Google третім особам, не використовує їх для реклами й не передає їх AI-сервісам: назви й деталі подій не надсилаються жодній мовній моделі. Використання та передача інформації, отриманої з API Google, відповідають <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, зокрема вимогам Limited Use.</p>
+
+  <h2>Сторонні сервіси</h2>
+  <ul>
+    <li><strong>Anthropic (Claude)</strong> — розуміє текст ваших повідомлень, щоб визначити, що це: нагадування, справа, ідея чи подія.</li>
+    <li><strong>OpenAI</strong> — перетворює голосові повідомлення на текст.</li>
+    <li><strong>Telegram</strong> — доставка повідомлень.</li>
+    <li><strong>Google</strong> — календар, якщо ви його підключили.</li>
+  </ul>
+  <p>Цим сервісам передається лише те, що потрібно для відповідної функції.</p>
+
+  <h2>Зберігання й безпека</h2>
+  <p>Дані зберігаються в базі даних на приватному сервері в ЄС, закритій від доступу з інтернету, і щодня резервно копіюються (копії зберігаються 14 днів). Доступ до бота мають лише запрошені користувачі.</p>
+
+  <h2>Ваші права та видалення даних</h2>
+  <ul>
+    <li><strong>Відключити календар:</strong> команда <code>/calendar off</code> відкликає доступ Google і видаляє токен. Також доступ можна відкликати в <a href="https://myaccount.google.com/permissions">налаштуваннях акаунта Google</a>.</li>
+    <li>Окремі нагадування, справи, ідеї та створені ботом події можна видалити кнопками в самому чаті.</li>
+    <li>Щоб видалити всі свої дані, напишіть на <a href="mailto:themainview@gmail.com">themainview@gmail.com</a> — дані буде видалено протягом 30 днів, зокрема з резервних копій.</li>
+  </ul>
+
+  <h2>Контакт</h2>
+  <p><a href="mailto:themainview@gmail.com">themainview@gmail.com</a></p>
+
+  <hr>
+
+  <section id="en" lang="en">
+    <h1>Privacy Policy</h1>
+    <p class="muted">“Maria” Telegram bot · updated 24 September 2026</p>
+
+    <h2>Data the bot processes</h2>
+    <ul>
+      <li><strong>Telegram:</strong> your numeric user ID and the messages you send to the bot (text and voice).</li>
+      <li><strong>What you ask it to keep:</strong> reminders, tasks, ideas and settings (brief times, timezone).</li>
+      <li><strong>Google Calendar</strong> (only if you connect it yourself): events of your primary calendar and the access token issued by Google.</li>
+    </ul>
+
+    <h2>How Google Calendar data is used</h2>
+    <p>The bot requests only the <code>calendar.events</code> scope and uses it solely for user-facing features:</p>
+    <ul>
+      <li>listing today's meetings in the morning plan and the /today command;</li>
+      <li>sending an alert before an event starts;</li>
+      <li>creating an event (optionally with a Google Meet link) when you explicitly ask for it, and deleting it via its “Delete” button.</li>
+    </ul>
+    <p>The bot does not modify or delete your other events, does not sell or share Google data with third parties, does not use it for advertising, and does not send it to AI services: event titles and details are never sent to any language model. The use and transfer of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+
+    <h2>Third-party services</h2>
+    <ul>
+      <li><strong>Anthropic (Claude)</strong> — understands the text of your messages to tell reminders, tasks, ideas and events apart.</li>
+      <li><strong>OpenAI</strong> — transcribes voice messages.</li>
+      <li><strong>Telegram</strong> — message delivery.</li>
+      <li><strong>Google</strong> — calendar, if you connected it.</li>
+    </ul>
+    <p>Each service receives only what its feature needs.</p>
+
+    <h2>Storage and security</h2>
+    <p>Data is stored in a database on a private server in the EU that is not reachable from the internet, with daily backups kept for 14 days. Only invited users can use the bot.</p>
+
+    <h2>Your rights and data deletion</h2>
+    <ul>
+      <li><strong>Disconnect the calendar:</strong> the <code>/calendar off</code> command revokes Google access and deletes the token. You can also revoke access in your <a href="https://myaccount.google.com/permissions">Google Account settings</a>.</li>
+      <li>Individual reminders, tasks, ideas and bot-created events can be deleted with buttons in the chat.</li>
+      <li>To delete all your data, email <a href="mailto:themainview@gmail.com">themainview@gmail.com</a>; it will be deleted within 30 days, including from backups.</li>
+    </ul>
+
+    <h2>Contact</h2>
+    <p><a href="mailto:themainview@gmail.com">themainview@gmail.com</a></p>
+  </section>
+</main>
+</body>
+</html>
